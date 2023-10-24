@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="261px" height="261px" viewBox="0 0 261 261" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49.3 (51167) - http://www.bohemiancoding.com/sketch -->
+    <title>Desk Twitter</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="28" y="10" width="223" height="223"></rect>
+        <filter x="-4.7%" y="-4.7%" width="109.4%" height="109.4%" filterUnits="objectBoundingBox" id="filter-2">
+            <feGaussianBlur stdDeviation="4.5" in="SourceAlpha" result="shadowBlurInner1"></feGaussianBlur>
+            <feOffset dx="-10" dy="12" in="shadowBlurInner1" result="shadowOffsetInner1"></feOffset>
+            <feComposite in="shadowOffsetInner1" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.193812274 0" type="matrix" in="shadowInnerInner1" result="shadowMatrixInner1"></feColorMatrix>
+            <feGaussianBlur stdDeviation="1.5" in="SourceAlpha" result="shadowBlurInner2"></feGaussianBlur>
+            <feOffset dx="0" dy="1" in="shadowBlurInner2" result="shadowOffsetInner2"></feOffset>
+            <feComposite in="shadowOffsetInner2" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner2"></feComposite>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.178413723 0" type="matrix" in="shadowInnerInner2" result="shadowMatrixInner2"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixInner1"></feMergeNode>
+                <feMergeNode in="shadowMatrixInner2"></feMergeNode>
+            </feMerge>
+        </filter>
+        <linearGradient x1="63.6691683%" y1="16.3985762%" x2="50%" y2="50%" id="linearGradient-3">
+            <stop stop-color="#FFFFFF" stop-opacity="0.43" offset="0%"></stop>
+            <stop stop-color="#FFFFFF" stop-opacity="0" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Desk-Twitter">
+            <rect id="Shadow" fill="#D6D6D6" x="0" y="20" width="241" height="241"></rect>
+            <path d="M27.9590164,9.95901639 L27.9590164,233.040984 L251.040984,233.040984 L251.040984,9.95901639 L27.9590164,9.95901639 Z M18,0 L261,0 L261,243 L18,243 L18,0 Z" id="Rectangle-3" fill="#333333" fill-rule="nonzero"></path>
+            <g id="Rectangle-2">
+                <use fill="#1DA1F2" fill-rule="evenodd" xlink:href="#path-1"></use>
+                <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+            </g>
+            <g id="Logo__x2014__FIXED" transform="translate(77.000000, 71.000000)" fill="#FFFFFF" fill-rule="nonzero">
+                <path d="M39.3,101.8 C86.45,101.8 112.25,62.7 112.25,28.85 C112.25,27.75 112.25,26.65 112.2,25.55 C117.2,21.95 121.55,17.4 125,12.25 C120.4,14.3 115.45,15.65 110.25,16.3 C115.55,13.15 119.6,8.1 121.55,2.1 C116.6,5.05 111.1,7.15 105.25,8.3 C100.55,3.3 93.9,0.2 86.55,0.2 C72.4,0.2 60.9,11.7 60.9,25.85 C60.9,27.85 61.15,29.8 61.55,31.7 C40.25,30.65 21.35,20.4 8.7,4.9 C6.5,8.7 5.25,13.1 5.25,17.8 C5.25,26.7 9.8,34.55 16.65,39.15 C12.45,39 8.5,37.85 5.05,35.95 C5.05,36.05 5.05,36.15 5.05,36.3 C5.05,48.7 13.9,59.1 25.6,61.45 C23.45,62.05 21.2,62.35 18.85,62.35 C17.2,62.35 15.6,62.2 14.05,61.9 C17.3,72.1 26.8,79.5 38,79.7 C29.2,86.6 18.15,90.7 6.15,90.7 C4.1,90.7 2.05,90.6 0.05,90.35 C11.35,97.55 24.85,101.8 39.3,101.8" id="Shape"></path>
+            </g>
+            <polygon id="Glare" fill="url(#linearGradient-3)" points="40 18 40 241 239 241 239 18"></polygon>
+        </g>
+    </g>
+</svg>
